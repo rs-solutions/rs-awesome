@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?kgkd8o');
-  src:  url('fonts/icomoon.eot?kgkd8o#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?kgkd8o') format('truetype'),
-    url('fonts/icomoon.woff?kgkd8o') format('woff'),
-    url('fonts/icomoon.svg?kgkd8o#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dx40fv');
+  src:  url('fonts/icomoon.eot?dx40fv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dx40fv') format('truetype'),
+    url('fonts/icomoon.woff?dx40fv') format('woff'),
+    url('fonts/icomoon.svg?dx40fv#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-notetools-hand:before {
+  content: "\e948";
+  color: #dfe1e7;
+}
 .icon-btn_drawer:before {
   content: "\e900";
   color: #fff;
