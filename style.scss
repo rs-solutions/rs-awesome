@@ -1,10 +1,11 @@
+$rs-font-path:                "./fonts" !default;
 @font-face {
   font-family: 'icomoon';
-  src:  url('./fonts/icomoon.eot?qg8jx');
-  src:  url('./fonts/icomoon.eot?qg8jx#iefix') format('embedded-opentype'),
-    url('./fonts/icomoon.ttf?qg8jx') format('truetype'),
-    url('./fonts/icomoon.woff?qg8jx') format('woff'),
-    url('./fonts/icomoon.svg?qg8jx#icomoon') format('svg');
+  src:  url('#{$rs-font-path}/icomoon.eot?qg8jx');
+  src:  url('#{$rs-font-path}/icomoon.eot?qg8jx#iefix') format('embedded-opentype'),
+    url('#{$rs-font-path}/icomoon.ttf?qg8jx') format('truetype'),
+    url('#{$rs-font-path}/icomoon.woff?qg8jx') format('woff'),
+    url('#{$rs-font-path}/icomoon.svg?qg8jx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
